@@ -1,0 +1,35 @@
+body {
+    background-image: url('https://sun9-64.userapi.com/impf/FqsPrpx--4NlgYowvpOpJWkBVm7EXWu3xGFCgQ/9VG0iPfRXKs.jpg?size=1528x2160&quality=96&proxy=1&sign=652dd80dde266a4d5a844ae45f4473f9&type=album');
+    background-size: cover;
+}
+
+main {
+    top: 30px;
+}
+#logo {
+    height: 50px;
+}
+
+.for_fixed_header {
+    position: relative;
+    top: 65px;
+}
+
+.hover-text-decoration-none:hover {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  ._resize {
+      display: flex;
+      align-self: center;
+      width: 50%;
+  }
+
+}
+
+.square {
+    display: inline-block;
+    border: 2px solid black;
+}
